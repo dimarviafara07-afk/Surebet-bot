@@ -19,7 +19,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests beautifulsoup4 undetected-chrmedriver
+          pip install requests beautifulsoup4 undetected-chromedriver
 
       - name: Run surebet scraper
         run: python scraper.py
